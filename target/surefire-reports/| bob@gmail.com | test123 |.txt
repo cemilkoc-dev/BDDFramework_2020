@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
-Test set: | liz@gmail.com | 123Test |
+Test set: | bob@gmail.com | test123 |
 -------------------------------------------------------------------------------
-Tests run: 13, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 28.931 sec <<< FAILURE! - in | liz@gmail.com | 123Test |
-| bob@gmail.com | test123 |  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 5, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 28.047 sec <<< FAILURE! - in | bob@gmail.com | test123 |
+Then I verify that I am in invalid login page(| bob@gmail.com | test123 |)  Time elapsed: 0.018 sec  <<< ERROR!
 org.openqa.selenium.TimeoutException: Expected condition failed: Webdriver waited for 15 seconds nut still could not find the element therefore TimeOutException has been thrown (tried for 20 second(s) with 1000 milliseconds interval)
 	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:315)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1596759531736" stop="1596759549886" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Verify invalid login for multiple users | liz@gmail.com | 123Test |</name>
+    <title>Verify invalid login for multiple users | liz@gmail.com | 123Test |</title>
+    <test-cases>
+        <test-case start="1596759531738" stop="1596759531738" status="passed">
+            <name>Given I am on home page</name>
+            <title>Given I am on home page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Cemils-MBP.fios-router.home"/>
+                <label name="thread" value="23037@Cemils-MBP.fios-router.home.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1596759531939" stop="1596759531939" status="passed">
+            <name>When I enter liz@gmail.com into username text fields on home screen</name>
+            <title>When I enter liz@gmail.com into username text fields on home screen</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Cemils-MBP.fios-router.home"/>
+                <label name="thread" value="23037@Cemils-MBP.fios-router.home.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1596759532012" stop="1596759532012" status="passed">
+            <name>And I enter 123Test into password text fields on home screen</name>
+            <title>And I enter 123Test into password text fields on home screen</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Cemils-MBP.fios-router.home"/>
+                <label name="thread" value="23037@Cemils-MBP.fios-router.home.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1596759549642" stop="1596759549642" status="passed">
+            <name>And I click on login button on home screen</name>
+            <title>And I click on login button on home screen</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Cemils-MBP.fios-router.home"/>
+                <label name="thread" value="23037@Cemils-MBP.fios-router.home.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1596759549682" stop="1596759549682" status="passed">
+            <name>Then I verify that I am in invalid login page</name>
+            <title>Then I verify that I am in invalid login page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Cemils-MBP.fios-router.home"/>
+                <label name="thread" value="23037@Cemils-MBP.fios-router.home.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Verify invalid login for multiple users | liz@gmail.com | 123Test |"/>
+        <label name="feature" value="Login Feature"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
